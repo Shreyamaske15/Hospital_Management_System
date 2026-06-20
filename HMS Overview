@@ -1,0 +1,91 @@
+# Hospital Management System
+A Hospital Management System developed using Python and SQLite to manage patient records and appointments through a role-based menu driven application.
+
+The project provides separate modules for Admin, Doctor, and Patient roles. 
+It allows users to store patient information, search records, update details, manage appointments, and maintain hospital data efficiently using a SQLite database.
+
+## Features
+### Patient Management
+* Add new patient records
+* View all patient records
+* Search patient using Patient ID
+* Update patient information
+* Delete patient records
+
+### Appointment Management
+
+* Book appointments for patients
+* View appointment details
+* Cancel existing appointments
+
+### Role-Based Access
+#### Admin
+* Manage patient records
+* Manage appointments
+* Access all system features
+
+#### Doctor
+
+* View patient records
+* Search patient details
+* View appointment information
+
+#### Patient
+
+* Book appointments
+* View appointments
+* Cancel appointments
+
+## Technologies Used
+
+* Python
+* SQLite3
+
+## Database Design
+### Patients Table
+Stores patient information including:
+
+* Patient ID
+* Name
+* Age
+* Disease
+
+### Appointments Table
+
+Stores appointment information including:
+
+* Appointment ID
+* Patient ID
+* Doctor Name
+* Appointment Date
+* Appointment Time
+
+The tables are connected using a Foreign Key relationship between Patients and Appointments.
+
+## Concepts Used
+
+* Functions
+* Loops
+* Conditional Statements
+* SQLite Database Connectivity
+* SQL Queries
+* CRUD Operations
+* Foreign Keys
+* Menu Driven Programming
+
+## Learning Outcomes
+
+* Working with SQLite databases
+* Performing CRUD operations
+* Executing SQL queries using Python
+* Managing database relationships
+* Building menu driven applications
+* Implementing role-based access systems
+
+## How to Run
+
+```bash
+python hospital.py
+```
+
+
